@@ -1,3 +1,4 @@
+.snakemake
 Star-fusion_ref/*
 !Star-fusion_ref/README.md
 Arriba_STAR_ref/*
