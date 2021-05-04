@@ -7,3 +7,13 @@ FusionCatcher/*
 !FusionCatcher/README.md
 Simgs/*
 !Simgs/README.md
+DATA/Test/*
+!DATA/Test/README.md
+fastq_temp/RNA/*
+!fastq_temp/RNA/README.md
+20210113_GMS-RNA_Test3_Pool1_Samplesheet_Linkoping.csv
+RunParameters.xml
+Test3_Pool1_Samplesheet.csv
+logs
+fastq
+DATA/Pathological_purity_BMS_validation.txt
