@@ -22,6 +22,7 @@ reference:
 
 
 configfiles:
+    # TODO: Check where to find this file
     multiqc: "DATA/multiqc_config.yaml"
 
 bed:
