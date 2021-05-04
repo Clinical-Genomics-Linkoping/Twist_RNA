@@ -1,6 +1,5 @@
 reference:
     # ref: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fasta"
-    # TODO: Check if this file is correct
     ref: "/home/Hanna/Documents/CG-Linkoping/Twist_RNA/DATA/Test/hg19.fa"
     # STAR: "/projects/wp4/nobackup/workspace/jonas_test/STAR-Fusion/references/GRCh37_gencode_v19_CTAT_lib_Apr032020.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/"
     STAR: "/home/Hanna/Documents/CG-Linkoping/Twist_RNA/DATA/Test/STAR-Fusion/references/GRCh37_gencode_v19_CTAT_lib_Apr032020.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/"
@@ -60,3 +59,12 @@ singularity: #Can be a docker container as well. This is converted to a singular
 
 cartool:
     cov: "100 200 1000"
+
+Runfolder: /home/Hanna/Documents/CG-Linkoping/Twist_RNA/klinik/INBOX/210119_NDX550220_0095_AHJHT5AFX2/
+
+Sample_sheet: Test3_Pool1_Samplesheet.csv
+
+DNA_Samples: No DNA
+
+RNA_Samples:
+  SeraSeq_Fusionv4-Pool1: "S1"
