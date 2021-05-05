@@ -1,19 +1,30 @@
+# Snakemake
 .snakemake
+logs
+
+# Reference files
 Star-fusion_ref/*
 !Star-fusion_ref/README.md
 Arriba_STAR_ref/*
 !Arriba_STAR_ref/README.md
 FusionCatcher/*
 !FusionCatcher/README.md
+
+# Singularity images
 Simgs/*
 !Simgs/README.md
+
+# Inputdata
 DATA/Test/*
 !DATA/Test/README.md
 fastq_temp/RNA/*
 !fastq_temp/RNA/README.md
+
+# Config
 20210113_GMS-RNA_Test3_Pool1_Samplesheet_Linkoping.csv
 RunParameters.xml
-logs
+
+# Directories produced by running main snakemake-file
 fastq
 DATA/Pathological_purity_BMS_validation.txt
 Results
