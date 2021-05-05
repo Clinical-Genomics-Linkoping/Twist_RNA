@@ -27,8 +27,8 @@ NOTE: THIS IS A WORK IN PROGRESS SO NOT AT ALL READY IN ANY WAY YET.
     - [Change Runfolder path for config file creation](#change-runfolder-path-for-config-file-creation)
     - [Update Config-file](#update-config-file)
 - [Usage](#usage)
-    - [Run the pipeline](#run-the-pipeline)
-- [Original instructions](#original-instructions)
+    - [Run `Twist_RNA.yaml` creation pipeline](#run-twist_rnayaml-creation-pipeline)
+    - [Run the main pipeline (`Twist_RNA.smk`)](#run-the-main-pipeline-twist_rnasmk)
 
 <!-- /TOC -->
 
