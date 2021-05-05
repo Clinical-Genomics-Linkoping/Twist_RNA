@@ -7,13 +7,14 @@ rule fastqc_bam:
         zip="qc/{sample}/{sample}_Aligned.sortedByCoord.out_fastqc.zip",
     params:
         outdir = "qc/{sample}/",
+        tmpdir = "qc/",
     log:
         "logs/qc/fastqc/{sample}_Aligned.sortedByCoord.log"
     threads: 10
     container:
         config["singularity"].get("fastqc", config["singularity"].get("default", ""))
     shell:
-        "(fastqc --quiet -t {threads} --outdir {params.outdir} {input}) &> {log}"
+        "(fastqc --quiet -t {threads} --outdir {params.outdir} -d {params.tmpdir} {input}) &> {log}"
     # wrapper:
     #     "0.38.0/bio/fastqc"
 
