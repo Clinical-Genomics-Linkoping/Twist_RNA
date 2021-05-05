@@ -32,3 +32,12 @@ Arriba_results
 STAR
 STAR2
 fusioncatcher
+DATA/RNA_*
+exon_coverage
+STAR_fusion
+qc
+nr_reads.txt
+
+# Miscellaneous
+.cache
+.java
