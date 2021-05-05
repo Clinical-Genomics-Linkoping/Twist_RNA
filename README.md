@@ -132,7 +132,7 @@ mkdir $SIMGS_PATH
 cd $SIMGS_PATH
 sudo singularity build twist_rna_arriba.sif docker://gmsuppsala/twist_rna_arriba:develop
 sudo singularity build twist_rna.sif docker://gmsuppsala/twist_rna:develop
-sudo singularity build twist_rna_fusioncatcher.sif docker://gmsuppsala/twist_rna_fusioncatcher:develop
+sudo singularity build twist_rna_fusioncatcher.sif docker://olopadelab/fusioncatcher:latest
 sudo singularity build twist_rna_starfusion.sif docker://gmsuppsala/twist_rna_starfusion:develop
 ```
 
