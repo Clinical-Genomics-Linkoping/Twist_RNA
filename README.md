@@ -293,5 +293,5 @@ snakemake --printshellcmds --cores 1 -s src/Snakemake/rules/Twist_RNA_yaml/Twist
 ## Run the main pipeline (`Twist_RNA.smk`)
 
 ```bash
-snakemake --printshellcmds --cores 10 -s ./Twist_RNA.smk --use-singularity
+snakemake --printshellcmds --cores 10 -s ./Twist_RNA.smk --use-singularity --cluster-config Config/Slurm/cluster.json
 ```
