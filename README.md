@@ -284,9 +284,14 @@ cartool:
 
 # Usage
 
-## Run the pipeline
+## Run `Twist_RNA.yaml` creation pipeline
 
 ```bash
 snakemake --printshellcmds --cores 1 -s src/Snakemake/rules/Twist_RNA_yaml/Twist_RNA_yaml.smk
-snakemake --printshellcmds --cores 10 -s ./Twist_RNA.smk --use-singularity --singularity-args "--bind /data --bind /beegfs-storage --bind /scratch "
+```
+
+## Run the main pipeline (`Twist_RNA.smk`)
+
+```bash
+snakemake --printshellcmds --cores 10 -s ./Twist_RNA.smk --use-singularity
 ```
