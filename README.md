@@ -60,6 +60,8 @@ These instructions were run with globally installed Singularity version 3.7.3.
 
 ## Create Arriba Star reference
 
+<!-- TODO: Change paths in bash code blocks to relative -->
+
 ```bash
 Arriba_REF="/home/Hanna/Documents/CG-Linkoping/Twist_RNA/Arriba_STAR_ref"
 mkdir $Arriba_REF
@@ -219,6 +221,8 @@ outfile.write("\nRunfolder: /home/Hanna/Documents/CG-Linkoping/Twist_RNA/klinik/
 ## Update Config-file
 
 Update the `Config/Pipeline/configdefaults201012.yaml` file to the following:
+
+<!-- TODO: Update config yaml when ran succesfully -->
 
 ```yaml
 reference:
