@@ -1,5 +1,5 @@
 
-include: "../rules/Fastq/demultiplex.smk"
+#include: "../rules/Fastq/demultiplex.smk"
 include: "../rules/Fastq/fix_fastq_RNA.smk"
 include: "../rules/Fusion/Arriba.smk"
 include: "../rules/Fusion/Imbalance.smk"
