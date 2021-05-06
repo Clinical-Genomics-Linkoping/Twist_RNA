@@ -1,6 +1,7 @@
 # Snakemake
 .snakemake
 logs
+report.html
 
 # Reference files
 Star-fusion_ref/*
