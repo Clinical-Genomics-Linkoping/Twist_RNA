@@ -10,6 +10,7 @@ DATA/Arriba_STAR_ref/*
 !DATA/Arriba_STAR_ref/README.md
 DATA/FusionCatcher/*
 !DATA/FusionCatcher/README.md
+DATA/hg19.with.mt.fa
 
 # Singularity images
 Simgs/*
