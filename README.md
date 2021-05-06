@@ -40,7 +40,7 @@ NOTE: THIS IS A WORK IN PROGRESS SO NOT AT ALL READY IN ANY WAY YET.
 git clone https://github.com/clinical-genomics-linkoping/Twist_RNA.git
 ```
 
-## Be on the correct git branch
+## Move to `ro-implementation` branch
 
 ```bash
 git checkout ro-implementation
