@@ -195,7 +195,7 @@ include: "../rules/QC/Housekeeping.smk"
 
 ## Move samplesheet file and xml-file to analysis-dir
 
-`RunParameters.xml`-file is obtained from the sequencer. 
+`RunParameters.xml`-file is obtained from the sequencer.
 
 ```bash
 ANALYSIS_DIR="/home/Hanna/Documents/CG-Linkoping/Twist_RNA/"
