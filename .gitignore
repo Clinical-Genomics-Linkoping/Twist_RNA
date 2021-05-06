@@ -4,12 +4,12 @@ logs
 report.html
 
 # Reference files
-Star-fusion_ref/*
-!Star-fusion_ref/README.md
-Arriba_STAR_ref/*
-!Arriba_STAR_ref/README.md
-FusionCatcher/*
-!FusionCatcher/README.md
+DATA/Star-fusion_ref/*
+!DATA/Star-fusion_ref/README.md
+DATA/Arriba_STAR_ref/*
+!DATA/Arriba_STAR_ref/README.md
+DATA/FusionCatcher/*
+!DATA/FusionCatcher/README.md
 
 # Singularity images
 Simgs/*
