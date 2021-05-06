@@ -56,7 +56,7 @@ Follow the installation instructions: [here](https://sylabs.io/guides/3.7/user-g
 
 If you have RHEL derivative system follow [these instructions](https://sylabs.io/guides/3.0/user-guide/installation.html#install-dependencies 'Installing dependencies with yum/rpm') for installing dependencies.
 
-This project currently uses Singularity version 3.7.3.
+These instructions were run with globally installed Singularity version 3.7.3.
 
 ## Create Arriba Star reference
 
