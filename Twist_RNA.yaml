@@ -40,7 +40,7 @@ singularity: #Can be a docker container as well. This is converted to a singular
     # default_starfusion: "docker://gmsuppsala/twist_rna_starfusion:develop"
     default_starfusion: "/home/Hanna/Documents/CG-Linkoping/Twist_RNA/Simgs/twist_rna_starfusion.sif"
     # Fusion_catcher: "docker://olopadelab/fusioncatcher:latest"
-    Fusion_catcher: "/home/Hanna/Documents/CG-Linkoping/Twist_RNA/Simgs/twist_rna_fusioncatcher.sif"
+    Fusion_catcher: "/home/Hanna/Documents/CG-Linkoping/T_RNA_new_try/Twist_RNA/Simgs/twist_rna_olopadelab_fusioncatcher.sif"
     #default_fusioncatcher: "docker://gmsuppsala/twist_rna_fusioncatcher:develop"
     # cartool: "/projects/wp2/nobackup/Twist_Myeloid/Containers/CARTools-200206.simg"
     cartool: "/home/Hanna/Documents/CG-Linkoping/Twist_RNA/Simgs/CARTools-200206.simg"
