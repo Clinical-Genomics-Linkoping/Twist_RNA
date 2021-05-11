@@ -40,6 +40,12 @@ STAR_fusion
 qc
 nr_reads.txt
 
+# References and test data
+STAR-Fusion
+Test_data
+references2
+human_v98
+
 # Miscellaneous
 .cache
 .java
