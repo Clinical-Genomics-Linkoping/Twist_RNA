@@ -43,6 +43,7 @@ git clone https://github.com/clinical-genomics-linkoping/Twist_RNA.git
 ## Move to `ro-implementation` branch
 
 ```bash
+cd Twist_RNA
 git checkout ro-implementation
 ```
 
